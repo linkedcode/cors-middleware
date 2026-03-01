@@ -1,0 +1,21 @@
+{
+  "name": "linkedcode/cors-middleware",
+  "description": "Simple CORS Middleware",
+  "type": "library",
+  "autoload": {
+    "psr-4": {
+      "Linkedcode\\Middleware\\Cors\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Nicolas H. Kosciuk",
+      "email": "nhk@linkedcode.com"
+    }
+  ],
+  "require": {
+    "psr/http-message": "^2.0",
+    "psr/http-server-middleware": "^1.0",
+    "psr/http-factory": "^1.1"
+  }
+}
